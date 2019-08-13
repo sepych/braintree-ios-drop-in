@@ -16,7 +16,8 @@ target 'DropInDemo' do
   pod 'Braintree/Apple-Pay'
   pod 'Braintree/PayPal'
   pod 'Braintree/Venmo'
-  pod 'Braintree/PaymentFlow'
+  pod 'Braintree/PaymentFlow', :git => 'https://github.com/sepych/braintree-ios.git', :commit => '76a4737f17778e0172b649c9418190c622f0144b'
+
 end
 
 abstract_target 'Tests' do
